@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#5E230B</color>
+    <color name="secondary">#F2AE73</color>
+    <color name="tertiary">#3D2108</color>
+    <color name="quaternary">#FCFCFC</color>
+    <color name="quinary">#8A796C</color>
+    <color name="senary">#3D2008</color>
+</resources>

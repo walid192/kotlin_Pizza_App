@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/white"
+    tools:context=".PizzaCmnd">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        style="@style/Widget.Material3.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_button_1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Taille de la pizza"
+            android:layout_marginBottom="25dp"
+            android:textSize="28sp" />
+
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:text="Moyenne" />
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:text="Mini" />
+
+        <RadioButton
+            android:id="@+id/radio_button_3"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:text="Maxi" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/ingredients"
+        style="@style/Widget.Material3.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_button_1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ingredients"
+            android:layout_marginBottom="25dp"
+            android:textSize="28sp" />
+
+
+        <RadioButton
+            android:id="@+id/fromage"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:text="Fromage" />
+
+        <RadioButton
+            android:id="@+id/chamignon"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:text="Champignon" />
+
+        <RadioButton
+            android:id="@+id/pepperoni"
+            style="@style/Widget.Material3.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+
+            android:text="pepperoni" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sendCommand"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Send Command "
+        android:textColor="#FFFFFF"
+        android:textColorLink="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>

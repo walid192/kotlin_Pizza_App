@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pizza Hub</string>
+    <string name="second_title">Best Pizza Ever</string>
+    <string name="hello">Hello There ! Welcome Back</string>
+    <string name="First_Name">FirstName</string>
+    <string name="Last_Name">LastName</string>
+    <string name="Adresse">Adresse</string>
+</resources>
